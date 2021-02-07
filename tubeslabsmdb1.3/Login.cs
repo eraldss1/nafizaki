@@ -33,6 +33,7 @@ namespace UASLABSMDB {
             {
 				try
 				{
+					// Button untuk login
 					co.Open();
 					mycommand.Connection = co;
 					mycommand.CommandText = "select * from pengguna where username='" + username.Text + "' and password='" + hash.HashingPassword(password.Text) + "'";
