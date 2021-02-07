@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace tubeslabsmdb1._3
 {
+    // Class untuk barang
     class Barang
     {
         public string ID { get; set; }

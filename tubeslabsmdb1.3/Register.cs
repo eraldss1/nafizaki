@@ -28,6 +28,7 @@ namespace UASLABSMDB {
 		
 		void BtnregisterClick(object sender, EventArgs e)
 		{
+			// Button untuk register
 			 if (konfirmpassword.Text != string.Empty || password.Text != string.Empty || username.Text != string.Empty || nama.Text != string.Empty || alamat.Text != string.Empty)  
             {  
                 if (password.Text == konfirmpassword.Text)  
